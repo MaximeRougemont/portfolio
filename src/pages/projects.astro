@@ -2,14 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import AboutContent from "../components/pages/AboutContent";
+import ProjectsContent from "../components/pages/ProjectsContent";
 ---
 
-<Layout title="À propos" description="En savoir plus sur moi">
+<Layout title="Projets" description="Mes projets réalisés">
   <Navbar client:load />
 
   <main>
-    <AboutContent client:load />
+    <ProjectsContent client:load />
   </main>
 
   <Footer client:load />
